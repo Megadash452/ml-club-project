@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Help - Voice Command Browser</title>
+
+        <style>
+            * {font-family: sans-serif}
+
+            .command-name {
+                padding-bottom: 3px;
+                margin-bottom: 0;
+            }
+
+            .command-aliases {
+                background-color: #949494;
+                padding: 3px;
+            } .command-aliases::before {
+                content: "aliases=[";
+            } .command-aliases::after {
+                content: "]";
+            }
+
+            .command-examples {
+                background-color: #86bce0;
+                padding: 3px;
+            } .command-examples::before {
+                content: "examples=[";
+            } .command-examples::after {
+                content: "]";
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to <span>Voice Command Browser</span>. This page will tell you what commands you can say.</h1>
+
+        <div>
+            <h1>Things you can say:</h1>
+
+            <ul id="command-list">
+                Help:
+
+                <li>
+                    <h3 class="command-name">What can I say</h3>
+                    <span class="command-aliases">
+                        "What can you do"
+                    </span>
+                </li>
+
+                Open window/tab
+
+                <li>
+                    <h3 class="command-name">Open window</h3>
+                    <span class="command-aliases">
+                        "Launch window", "Start window", "Begin window"
+                    </span>
+                </li>
+
+                <li>
+                    <h3 class="command-name">Open tab</h3>
+                    <span class="command-aliases">
+                        "Launch tab", "Start tab", "Begin tab"
+                    </span>
+                </li>
+
+                Close window/tab
+
+                <li>
+                    <h3 class="command-name">Close window</h3>
+                    <span class="command-aliases">
+                        "Stop window", "Terminate window", "Exit tab", "Kill window"
+                    </span>
+                </li>
+
+                <li>
+                    <h3 class="command-name">Close tab</h3>
+                    <span class="command-aliases">
+                        "Stop tab", "Terminate tab", "Exit tab", "Kill tab"
+                    </span>
+                </li>
+
+                <li>
+                    <h3 class="command-name">Close program</h3>
+                    <span class="command-aliases">
+                        "Stop program", "Terminate program", "Exit program", "Kill program", <br>
+                        "Stop task", "Terminate task", "Exit task", "Kill task"
+                    </span>
+                </li>
+
+                Volume Control:
+
+                <li>
+                    <h3 class="command-name">Volue "up"/"down"</h3>
+                </li>
+
+                <li>
+                    <h3 class="command-name">Mute</h3>
+                    <span class="command-aliases">
+                        "Silence"
+                    </span>
+                </li>
+
+                <li>
+                    <h3 class="command-name">Unmute</h3>
+                </li>
+
+                <li>
+                    <h3 class="command-name">Move "DIRECTION"</h3>
+                    <span class="commmand-examples">
+                        
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
